@@ -1,4 +1,7 @@
 # Colloq
+[![Build Status](https://travis-ci.com/fapspirit/colloq.svg?branch=master)](https://travis-ci.com/fapspirit/colloq)
+
+
 A framework for creating simple message-oriented discord bots powered by discord.js
 
 ## Example
