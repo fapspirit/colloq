@@ -7,9 +7,11 @@
   "author": "Fedorov Anton <fapspirit@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint lib --fix"
+    "lint": "eslint lib --fix",
+    "test": "nyc mocha __TEST__"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "discord.js": "^11.4.2",
     "eslint": "^5.6.1",
     "eslint-config-standard": "^12.0.0",
@@ -18,7 +20,9 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "husky": "^1.1.2",
-    "lint-staged": "^7.3.0"
+    "lint-staged": "^7.3.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
   },
   "peerDependencies": {
     "discord.js": "^11.4.2"
